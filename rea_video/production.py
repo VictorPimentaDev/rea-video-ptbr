@@ -343,6 +343,9 @@ def _setups(shots: list[dict], sig: dict, thr: float, b: dict) -> list[dict]:
             scenes[best[1]].append(r)
         else:
             scenes.append([r])
+    # Modified by Victor Pimenta: localized shot sizes keep the same setup order.
+    from .aspects.framing import SIZES
+    size_order = {**SIZE_ORDER, **{SIZES[k]: n for n, k in enumerate(("ls", "fs", "ms", "mcu", "cu", "ecu"))}}
     out = []
     for si, sc in enumerate(scenes, 1):
         groups: dict[tuple, list[dict]] = {}
@@ -350,14 +353,14 @@ def _setups(shots: list[dict], sig: dict, thr: float, b: dict) -> list[dict]:
             a = r.get("aspects") or {}
             # group on normalised values: free-text answers ("近景（手持物品特写）") would split one setup into many
             raw = str(((a.get("framing") or {}).get("result") or {}).get("shot_size") or "")
-            size = next((k for k in SIZE_ORDER if raw.startswith(k)), raw or "—")
+            size = next((k for k in size_order if raw.startswith(k)), raw or "—")
             cam = (a.get("camera") or {}).get("result") or {}
             support = SUPPORT_ZH.get(cam.get("support"), cam.get("support_zh") or "—")
             groups.setdefault((size, support), []).append(r)
         light = (((sc[0].get("aspects") or {}).get("lighting") or {}).get("result") or {})
         desc = (sc[0].get("vlm") or sc[0].get("review") or {}).get("description", "")
         setups = []
-        for (size, support), rs in sorted(groups.items(), key=lambda kv: SIZE_ORDER.get(kv[0][0], 9)):
+        for (size, support), rs in sorted(groups.items(), key=lambda kv: size_order.get(kv[0][0], 9)):
             setups.append({"shot_size": size, "support": support, "shots": [r["index"] for r in rs],
                            "screen_s": round(sum(r["duration"] for r in rs), 2),
                            "take_s": round(sum(r["duration"] for r in rs) + 2.0 * len(rs), 1),

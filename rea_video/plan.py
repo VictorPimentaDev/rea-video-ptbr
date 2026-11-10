@@ -109,7 +109,7 @@ def framing_words(shot: dict) -> tuple[str, str]:
     comp = comp.get("agent") or comp.get("vlm")
     where = _where(fm.get("center_x"), fm.get("center_y")) if fm.get("subject") in ("face", "focus") else None
     move = cm.get("move") or (v.get("camera_move") if v.get("camera_move") not in (None, "", "固定", "static") else None)
-    loc = [x for x in (size, angle, comp or (where and (where[1] if lang() == "en" else where[0])),
+    loc = [x for x in (size, angle, comp or (where and (T(*where))),
                        move and T("镜头{m}", "camera {m}", m=move)) if x]
     en_size = {"大特写": "extreme close-up", "特写": "close-up", "近景": "medium close-up", "中景": "medium shot",
                "全景": "full shot", "远景": "wide shot"}
@@ -121,6 +121,9 @@ def framing_words(shot: dict) -> tuple[str, str]:
     def head(x):  # "顶拍（正上方俯拍桌面）" -> "顶拍"
         return re.split(r"[（(，,]", x)[0].strip() if x else x
 
+    # Modified by Victor Pimenta: retain English generation prompts for pt-BR reports.
+    from .aspects.framing import SIZES
+    en_size.update({SIZES[k]: v for k, v in SIZES._en.items()})
     en = [en_size.get(head(size), size if size and size.isascii() else None),
           en_angle.get(head(angle), angle if angle and angle.isascii() else None),
           comp if comp and comp.isascii() else (where[1] if where and not comp else None),
@@ -136,7 +139,7 @@ def _with_framing(prompt: str, words: str) -> str:
     missing = [w for w in words.split(sep) if w and w not in prompt]
     if not missing:
         return prompt
-    end = "。" if not words.isascii() else ". "
+    end = "。" if re.search(r"[\u3400-\u9fff]", words) else ". "
     return sep.join(missing) + end + prompt
 
 

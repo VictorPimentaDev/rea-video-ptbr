@@ -13,7 +13,7 @@
 
 ## 语言
 
-报告语言跟 `--lang` 走（zh / en），回复语言跟用户走；两者的判断顺序见 SKILL.md「交付给用户」。下面的模板是中文版，英文回复用同样的结构：one-line verdict → content and cast → remake plan → shot list → packaging → audio → material you must supply → open questions → report path。
+报告语言跟 `--lang` 走（zh / en / pt-BR），回复语言跟用户走；两者的判断顺序见 SKILL.md「交付给用户」。下面的模板是中文版，英文回复用同样的结构：one-line verdict → content and cast → remake plan → shot list → packaging → audio → material you must supply → open questions → report path。
 
 ## 回复模板（中文）
 
