@@ -102,7 +102,7 @@
         "fill_name": "cinza",
         "weight": 0.071
       },
-      "style_zh": "texto cinza, altura da linha 2.6% (cerca de 28px)",
+      "style_zh": "texto cinza, altura da linha 2.5% (cerca de 27px)",
       "anim_in": null,
       "anim_out": null,
       "mid_motion": null,
@@ -113,80 +113,29 @@
     },
     {
       "id": "text_005",
-      "kind": "label",
-      "kind_zh": "rótulo de texto",
-      "t0": 0.0,
-      "t1": 24.0,
-      "text": "●retornos LiDAR",
-      "bbox": [
-        0.0509,
-        0.7296,
-        0.1583,
-        0.0269
-      ],
-      "style": {
-        "fill": "#7ae3cb",
-        "fill_name": "ciano",
-        "weight": 0.064
-      },
-      "style_zh": "texto ciano, altura da linha 2.4% (cerca de 26px)",
-      "anim_in": null,
-      "anim_out": null,
-      "mid_motion": null,
-      "follows": null,
-      "part_of_picture": true,
-      "anchor": null,
-      "persistent": null
-    },
-    {
-      "id": "text_007",
       "kind": "huazi",
       "kind_zh": "texto estilizado",
       "t0": 0.0,
       "t1": 24.0,
-      "text": "— trajetoria",
+      "text": "INiCIO",
       "bbox": [
-        0.275,
-        0.7306,
-        0.1093,
-        0.0278
+        0.1602,
+        0.4685,
+        0.0593,
+        0.025
       ],
       "style": {
-        "fill": "#4b3a24",
-        "fill_name": "marrom",
+        "fill": "#7dd9a0",
+        "fill_name": "verde",
+        "stroke": "#06151b",
+        "stroke_name": "preto",
+        "stroke_ratio": 0.064,
         "multicolor": true,
-        "highlight": "#dfbf92",
-        "highlight_name": "laranja",
-        "weight": 0.064
+        "highlight": "#162d30",
+        "highlight_name": "preto",
+        "weight": 0.071
       },
-      "style_zh": "texto marrom, palavras-chave destacadas em laranja, altura da linha 2.7% (cerca de 29px)",
-      "anim_in": null,
-      "anim_out": null,
-      "mid_motion": null,
-      "follows": null,
-      "part_of_picture": true,
-      "anchor": null,
-      "persistent": null
-    },
-    {
-      "id": "text_008",
-      "kind": "label",
-      "kind_zh": "rótulo de texto",
-      "t0": 0.0,
-      "t1": 24.0,
-      "text": "■areavarrida",
-      "bbox": [
-        0.4556,
-        0.7324,
-        0.1287,
-        0.0231
-      ],
-      "style": {
-        "fill": "#70b0a5",
-        "fill_name": "ciano",
-        "weight": 0.153
-      },
-      "style_zh": "texto ciano, altura da linha 2.3% (cerca de 25px)",
+      "style_zh": "texto verde, contorno preto, palavras-chave destacadas em preto, altura da linha 2.3% (cerca de 25px)",
       "anim_in": null,
       "anim_out": null,
       "mid_motion": null,
@@ -200,18 +149,45 @@
       "kind": "label",
       "kind_zh": "rótulo de texto",
       "t0": 0.0,
-      "t1": 5.1,
-      "text": "t035.3s",
+      "t1": 24.0,
+      "text": "●retornos LiDAR",
       "bbox": [
-        0.738,
-        0.7296,
-        0.113,
-        0.0269
+        0.0519,
+        0.7306,
+        0.1565,
+        0.025
+      ],
+      "style": {
+        "fill": "#7ae3cb",
+        "fill_name": "ciano",
+        "weight": 0.071
+      },
+      "style_zh": "texto ciano, altura da linha 2.4% (cerca de 26px)",
+      "anim_in": null,
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_007",
+      "kind": "label",
+      "kind_zh": "rótulo de texto",
+      "t0": 0.0,
+      "t1": 5.1,
+      "text": "t027.8s",
+      "bbox": [
+        0.7389,
+        0.7324,
+        0.1111,
+        0.0222
       ],
       "style": {
         "fill": "#97a5af",
         "fill_name": "cinza",
-        "weight": 0.064
+        "weight": 0.08
       },
       "style_zh": "texto cinza, altura da linha 2.2% (cerca de 24px)",
       "anim_in": null,
@@ -226,29 +202,53 @@
       "persistent": null
     },
     {
-      "id": "text_009",
-      "kind": "counter",
-      "kind_zh": "contador",
+      "id": "text_008",
+      "kind": "label",
+      "kind_zh": "rótulo de texto",
       "t0": 0.0,
-      "t1": 0.1,
-      "text": "2%",
+      "t1": 24.0,
+      "text": "area varrida",
       "bbox": [
-        0.0491,
-        0.7944,
-        0.0639,
-        0.0407
+        0.4787,
+        0.7333,
+        0.1278,
+        0.0213
       ],
       "style": {
-        "fill": "#e4f0f6",
-        "fill_name": "branco",
-        "weight": 0.087
+        "fill": "#70b0a5",
+        "fill_name": "ciano",
+        "weight": 0.166
       },
-      "style_zh": "texto branco, altura da linha 4.1% (cerca de 44px)",
+      "style_zh": "texto ciano, altura da linha 2.1% (cerca de 23px)",
       "anim_in": null,
-      "anim_out": {
-        "kind": "cut_out",
-        "kind_zh": "saída seca"
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_009",
+      "kind": "huazi",
+      "kind_zh": "texto estilizado",
+      "t0": 0.0,
+      "t1": 24.0,
+      "text": "— trajetoria real",
+      "bbox": [
+        0.2769,
+        0.7343,
+        0.1463,
+        0.0213
+      ],
+      "style": {
+        "fill": "#dfbf92",
+        "fill_name": "laranja",
+        "weight": 0.083
       },
+      "style_zh": "texto laranja, altura da linha 2.1% (cerca de 23px)",
+      "anim_in": null,
+      "anim_out": null,
       "mid_motion": null,
       "follows": null,
       "part_of_picture": true,
@@ -261,19 +261,19 @@
       "kind_zh": "contador",
       "t0": 0.0,
       "t1": 0.1,
-      "text": "1.2 m",
+      "text": "2%",
       "bbox": [
-        0.3019,
-        0.7944,
-        0.1019,
-        0.0417
+        0.0472,
+        0.7917,
+        0.0667,
+        0.0454
       ],
       "style": {
-        "fill": "#e5f1f7",
+        "fill": "#e4f0f6",
         "fill_name": "branco",
-        "weight": 0.122
+        "weight": 0.078
       },
-      "style_zh": "texto branco, altura da linha 4.2% (cerca de 45px)",
+      "style_zh": "texto branco, altura da linha 4.5% (cerca de 49px)",
       "anim_in": null,
       "anim_out": {
         "kind": "cut_out",
@@ -291,6 +291,36 @@
       "kind_zh": "contador",
       "t0": 0.0,
       "t1": 0.1,
+      "text": "1.2 m",
+      "bbox": [
+        0.3019,
+        0.7944,
+        0.1019,
+        0.0417
+      ],
+      "style": {
+        "fill": "#e4f0f6",
+        "fill_name": "branco",
+        "weight": 0.122
+      },
+      "style_zh": "texto branco, altura da linha 4.2% (cerca de 45px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_012",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 0.0,
+      "t1": 0.1,
       "text": "262",
       "bbox": [
         0.5528,
@@ -299,7 +329,7 @@
         0.037
       ],
       "style": {
-        "fill": "#e8f2f8",
+        "fill": "#e7f1f7",
         "fill_name": "branco",
         "weight": 0.119
       },
@@ -316,7 +346,7 @@
       "persistent": null
     },
     {
-      "id": "text_012",
+      "id": "text_013",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 0.0,
@@ -350,42 +380,15 @@
       "t1": 24.0,
       "text": "DISTANCIA",
       "bbox": [
-        0.3037,
-        0.8417,
-        0.0954,
-        0.0222
+        0.3019,
+        0.8407,
+        0.0972,
+        0.0241
       ],
       "style": {
         "fill": "#95a6af",
         "fill_name": "cinza",
-        "weight": 0.08
-      },
-      "style_zh": "texto cinza, altura da linha 2.1% (cerca de 23px)",
-      "anim_in": null,
-      "anim_out": null,
-      "mid_motion": null,
-      "follows": null,
-      "part_of_picture": true,
-      "anchor": null,
-      "persistent": null
-    },
-    {
-      "id": "text_015",
-      "kind": "label",
-      "kind_zh": "rótulo de texto",
-      "t0": 0.0,
-      "t1": 24.0,
-      "text": "PISOVARRIDO",
-      "bbox": [
-        0.0509,
-        0.8426,
-        0.1269,
-        0.0213
-      ],
-      "style": {
-        "fill": "#94a5ae",
-        "fill_name": "cinza",
-        "weight": 0.083
+        "weight": 0.073
       },
       "style_zh": "texto cinza, altura da linha 2.1% (cerca de 23px)",
       "anim_in": null,
@@ -402,11 +405,11 @@
       "kind_zh": "rótulo de texto",
       "t0": 0.0,
       "t1": 24.0,
-      "text": "PONTOS UNICOS*",
+      "text": "PISOVARRIDO",
       "bbox": [
-        0.5528,
+        0.0509,
         0.8426,
-        0.15,
+        0.1269,
         0.0213
       ],
       "style": {
@@ -424,7 +427,34 @@
       "persistent": null
     },
     {
-      "id": "text_013",
+      "id": "text_017",
+      "kind": "label",
+      "kind_zh": "rótulo de texto",
+      "t0": 0.0,
+      "t1": 24.0,
+      "text": "PONTOSUNICOS*",
+      "bbox": [
+        0.5537,
+        0.8426,
+        0.1491,
+        0.0213
+      ],
+      "style": {
+        "fill": "#96a4ae",
+        "fill_name": "cinza",
+        "weight": 0.083
+      },
+      "style_zh": "texto cinza, altura da linha 2.1% (cerca de 23px)",
+      "anim_in": null,
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_015",
       "kind": "label",
       "kind_zh": "rótulo de texto",
       "t0": 0.0,
@@ -441,34 +471,7 @@
         "fill_name": "cinza",
         "weight": 0.073
       },
-      "style_zh": "texto cinza, altura da linha 2.4% (cerca de 26px)",
-      "anim_in": null,
-      "anim_out": null,
-      "mid_motion": null,
-      "follows": null,
-      "part_of_picture": true,
-      "anchor": null,
-      "persistent": null
-    },
-    {
-      "id": "text_017",
-      "kind": "label",
-      "kind_zh": "rótulo de texto",
-      "t0": 0.0,
-      "t1": 24.0,
-      "text": "LiDARplanar em cena3D",
-      "bbox": [
-        0.05,
-        0.8898,
-        0.2389,
-        0.025
-      ],
-      "style": {
-        "fill": "#06121d",
-        "fill_name": "preto",
-        "weight": 0.141
-      },
-      "style_zh": "texto preto, altura da linha 2.5% (cerca de 27px)",
+      "style_zh": "texto cinza, altura da linha 2.3% (cerca de 25px)",
       "anim_in": null,
       "anim_out": null,
       "mid_motion": null,
@@ -483,17 +486,17 @@
       "kind_zh": "rótulo de texto",
       "t0": 0.0,
       "t1": 24.0,
-      "text": "mapa conhecido·reproducao 7.5x",
+      "text": "LiDAR planar em cena 3D",
       "bbox": [
-        0.3074,
-        0.8907,
-        0.3296,
-        0.0251
+        0.05,
+        0.8898,
+        0.238,
+        0.025
       ],
       "style": {
         "fill": "#95a6af",
         "fill_name": "cinza",
-        "weight": 0.068
+        "weight": 0.071
       },
       "style_zh": "texto cinza, altura da linha 2.5% (cerca de 27px)",
       "anim_in": null,
@@ -506,6 +509,33 @@
     },
     {
       "id": "text_019",
+      "kind": "label",
+      "kind_zh": "rótulo de texto",
+      "t0": 0.0,
+      "t1": 24.0,
+      "text": "mapaconhecido·reproducao7.5x",
+      "bbox": [
+        0.3065,
+        0.8907,
+        0.3306,
+        0.025
+      ],
+      "style": {
+        "fill": "#95a6af",
+        "fill_name": "cinza",
+        "weight": 0.071
+      },
+      "style_zh": "texto cinza, altura da linha 2.5% (cerca de 27px)",
+      "anim_in": null,
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_020",
       "kind": "label",
       "kind_zh": "rótulo de texto",
       "t0": 0.0,
@@ -532,7 +562,7 @@
       "persistent": null
     },
     {
-      "id": "text_021",
+      "id": "text_022",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 0.5,
@@ -545,7 +575,7 @@
         0.0417
       ],
       "style": {
-        "fill": "#e4f0f6",
+        "fill": "#e5f1f7",
         "fill_name": "branco",
         "weight": 0.103
       },
@@ -565,7 +595,7 @@
       "persistent": null
     },
     {
-      "id": "text_022",
+      "id": "text_023",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 0.5,
@@ -598,7 +628,7 @@
       "persistent": null
     },
     {
-      "id": "text_020",
+      "id": "text_021",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 0.5,
@@ -621,8 +651,8 @@
         "kind_zh": "máquina de escrever"
       },
       "anim_out": {
-        "kind": "cut_out",
-        "kind_zh": "saída seca"
+        "kind": "pop_out",
+        "kind_zh": "saída encolhendo"
       },
       "mid_motion": null,
       "follows": null,
@@ -631,7 +661,7 @@
       "persistent": null
     },
     {
-      "id": "text_023",
+      "id": "text_024",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 1.0,
@@ -644,7 +674,7 @@
         0.0417
       ],
       "style": {
-        "fill": "#e5f1f7",
+        "fill": "#e7f2f6",
         "fill_name": "branco",
         "weight": 0.103
       },
@@ -664,7 +694,7 @@
       "persistent": null
     },
     {
-      "id": "text_024",
+      "id": "text_025",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 1.0,
@@ -677,7 +707,7 @@
         0.037
       ],
       "style": {
-        "fill": "#e6f2f8",
+        "fill": "#e6f1f5",
         "fill_name": "branco",
         "weight": 0.119
       },
@@ -697,7 +727,7 @@
       "persistent": null
     },
     {
-      "id": "text_025",
+      "id": "text_026",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 1.5,
@@ -710,9 +740,9 @@
         0.0426
       ],
       "style": {
-        "fill": "#e6f1f5",
+        "fill": "#e6f2f8",
         "fill_name": "branco",
-        "weight": 0.119
+        "weight": 0.122
       },
       "style_zh": "texto branco, altura da linha 4.3% (cerca de 46px)",
       "anim_in": {
@@ -730,7 +760,7 @@
       "persistent": null
     },
     {
-      "id": "text_026",
+      "id": "text_027",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 1.5,
@@ -763,7 +793,7 @@
       "persistent": null
     },
     {
-      "id": "text_027",
+      "id": "text_028",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 2.0,
@@ -776,7 +806,7 @@
         0.0426
       ],
       "style": {
-        "fill": "#e4f0f6",
+        "fill": "#e6f1f5",
         "fill_name": "branco",
         "weight": 0.101
       },
@@ -796,7 +826,7 @@
       "persistent": null
     },
     {
-      "id": "text_028",
+      "id": "text_029",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 2.0,
@@ -809,40 +839,7 @@
         0.037
       ],
       "style": {
-        "fill": "#e4f0f6",
-        "fill_name": "branco",
-        "weight": 0.119
-      },
-      "style_zh": "texto branco, altura da linha 3.7% (cerca de 40px)",
-      "anim_in": {
-        "kind": "cut",
-        "kind_zh": "entrada seca"
-      },
-      "anim_out": {
-        "kind": "cut_out",
-        "kind_zh": "saída seca"
-      },
-      "mid_motion": null,
-      "follows": null,
-      "part_of_picture": true,
-      "anchor": null,
-      "persistent": null
-    },
-    {
-      "id": "text_029",
-      "kind": "counter",
-      "kind_zh": "contador",
-      "t0": 2.5,
-      "t1": 3.1,
-      "text": "681",
-      "bbox": [
-        0.5537,
-        0.7963,
-        0.0685,
-        0.037
-      ],
-      "style": {
-        "fill": "#e5f1f7",
+        "fill": "#e5f0f4",
         "fill_name": "branco",
         "weight": 0.119
       },
@@ -865,21 +862,21 @@
       "id": "text_030",
       "kind": "counter",
       "kind_zh": "contador",
-      "t0": 3.0,
-      "t1": 4.1,
-      "text": "14.8 m",
+      "t0": 2.5,
+      "t1": 3.1,
+      "text": "681",
       "bbox": [
-        0.3028,
-        0.7944,
-        0.1213,
-        0.0417
+        0.5537,
+        0.7963,
+        0.0685,
+        0.037
       ],
       "style": {
-        "fill": "#e6f1f5",
+        "fill": "#e5f0f4",
         "fill_name": "branco",
-        "weight": 0.122
+        "weight": 0.119
       },
-      "style_zh": "texto branco, altura da linha 4.1% (cerca de 44px)",
+      "style_zh": "texto branco, altura da linha 3.7% (cerca de 40px)",
       "anim_in": {
         "kind": "cut",
         "kind_zh": "entrada seca"
@@ -898,19 +895,52 @@
       "id": "text_031",
       "kind": "counter",
       "kind_zh": "contador",
+      "t0": 3.0,
+      "t1": 4.1,
+      "text": "14.8 m",
+      "bbox": [
+        0.3028,
+        0.7944,
+        0.1213,
+        0.0417
+      ],
+      "style": {
+        "fill": "#e5f0f4",
+        "fill_name": "branco",
+        "weight": 0.122
+      },
+      "style_zh": "texto branco, altura da linha 4.1% (cerca de 44px)",
+      "anim_in": {
+        "kind": "fade",
+        "kind_zh": "fade in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_032",
+      "kind": "counter",
+      "kind_zh": "contador",
       "t0": 3.5,
       "t1": 6.1,
       "text": "24%",
       "bbox": [
-        0.05,
-        0.7954,
-        0.0824,
-        0.0398
+        0.0491,
+        0.7926,
+        0.0833,
+        0.0435
       ],
       "style": {
         "fill": "#e4f0f6",
         "fill_name": "branco",
-        "weight": 0.108
+        "weight": 0.101
       },
       "style_zh": "texto branco, altura da linha 3.9% (cerca de 42px)",
       "anim_in": {
@@ -928,16 +958,16 @@
       "persistent": null
     },
     {
-      "id": "text_032",
+      "id": "text_033",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 3.3,
       "t1": 4.3,
       "text": "704",
       "bbox": [
-        0.5528,
+        0.5537,
         0.7963,
-        0.0694,
+        0.0685,
         0.037
       ],
       "style": {
@@ -961,20 +991,20 @@
       "persistent": null
     },
     {
-      "id": "text_034",
+      "id": "text_035",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 4.5,
       "t1": 5.1,
       "text": "725",
       "bbox": [
-        0.5519,
+        0.5528,
         0.7963,
-        0.0703,
+        0.0694,
         0.037
       ],
       "style": {
-        "fill": "#e4f0f6",
+        "fill": "#e6f1f5",
         "fill_name": "branco",
         "weight": 0.14
       },
@@ -991,7 +1021,7 @@
       "persistent": null
     },
     {
-      "id": "text_033",
+      "id": "text_034",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 4.5,
@@ -1004,11 +1034,11 @@
         0.0417
       ],
       "style": {
-        "fill": "#e6f1f5",
+        "fill": "#e5f1f7",
         "fill_name": "branco",
         "weight": 0.122
       },
-      "style_zh": "texto branco, altura da linha 4.1% (cerca de 44px)",
+      "style_zh": "texto branco, altura da linha 4.2% (cerca de 45px)",
       "anim_in": {
         "kind": "reveal",
         "kind_zh": "máquina de escrever"
@@ -1024,24 +1054,24 @@
       "persistent": null
     },
     {
-      "id": "text_035",
+      "id": "text_036",
       "kind": "label",
       "kind_zh": "rótulo de texto",
       "t0": 5.5,
       "t1": 6.1,
-      "text": "t046.6 s",
+      "text": "t042.8s",
       "bbox": [
-        0.738,
-        0.7296,
-        0.113,
-        0.0269
+        0.7398,
+        0.7324,
+        0.1102,
+        0.0222
       ],
       "style": {
-        "fill": "#98a6b1",
+        "fill": "#97a5af",
         "fill_name": "cinza",
-        "weight": 0.064
+        "weight": 0.08
       },
-      "style_zh": "texto cinza, altura da linha 2.5% (cerca de 27px)",
+      "style_zh": "texto cinza, altura da linha 2.2% (cerca de 24px)",
       "anim_in": {
         "kind": "cut",
         "kind_zh": "entrada seca"
@@ -1057,7 +1087,7 @@
       "persistent": null
     },
     {
-      "id": "text_036",
+      "id": "text_037",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 5.5,
@@ -1070,44 +1100,11 @@
         0.037
       ],
       "style": {
-        "fill": "#e5f1f7",
+        "fill": "#e6f1f5",
         "fill_name": "branco",
         "weight": 0.119
       },
       "style_zh": "texto branco, altura da linha 3.7% (cerca de 40px)",
-      "anim_in": {
-        "kind": "cut",
-        "kind_zh": "entrada seca"
-      },
-      "anim_out": {
-        "kind": "cut_out",
-        "kind_zh": "saída seca"
-      },
-      "mid_motion": null,
-      "follows": null,
-      "part_of_picture": true,
-      "anchor": null,
-      "persistent": null
-    },
-    {
-      "id": "text_037",
-      "kind": "counter",
-      "kind_zh": "contador",
-      "t0": 6.0,
-      "t1": 6.1,
-      "text": "24.7 m",
-      "bbox": [
-        0.3009,
-        0.7944,
-        0.1222,
-        0.0407
-      ],
-      "style": {
-        "fill": "#e5f0f4",
-        "fill_name": "branco",
-        "weight": 0.106
-      },
-      "style_zh": "texto branco, altura da linha 4.1% (cerca de 44px)",
       "anim_in": {
         "kind": "cut",
         "kind_zh": "entrada seca"
@@ -1127,6 +1124,39 @@
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 6.0,
+      "t1": 6.1,
+      "text": "24.7 m",
+      "bbox": [
+        0.3009,
+        0.7944,
+        0.1222,
+        0.0407
+      ],
+      "style": {
+        "fill": "#e5f1f7",
+        "fill_name": "branco",
+        "weight": 0.106
+      },
+      "style_zh": "texto branco, altura da linha 4.1% (cerca de 44px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_039",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 6.0,
       "t1": 8.0,
       "text": "740",
       "bbox": [
@@ -1141,7 +1171,10 @@
         "weight": 0.14
       },
       "style_zh": "texto branco, altura da linha 3.7% (cerca de 40px)",
-      "anim_in": null,
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
       "anim_out": {
         "kind": "cut_out",
         "kind_zh": "saída seca"
@@ -1153,7 +1186,7 @@
       "persistent": null
     },
     {
-      "id": "text_043",
+      "id": "text_044",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 8.0,
@@ -1186,7 +1219,7 @@
       "persistent": null
     },
     {
-      "id": "text_048",
+      "id": "text_049",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 9.0,
@@ -1219,22 +1252,22 @@
       "persistent": null
     },
     {
-      "id": "text_039",
+      "id": "text_040",
       "kind": "label",
       "kind_zh": "rótulo de texto",
       "t0": 6.5,
       "t1": 7.6,
-      "text": "t057.8s",
+      "text": "t050.3s",
       "bbox": [
-        0.7398,
-        0.7324,
-        0.1102,
-        0.0222
+        0.738,
+        0.7296,
+        0.113,
+        0.0269
       ],
       "style": {
-        "fill": "#96a4ae",
+        "fill": "#97a5af",
         "fill_name": "cinza",
-        "weight": 0.08
+        "weight": 0.064
       },
       "style_zh": "texto cinza, altura da linha 2.2% (cerca de 24px)",
       "anim_in": {
@@ -1252,7 +1285,7 @@
       "persistent": null
     },
     {
-      "id": "text_040",
+      "id": "text_041",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 6.5,
@@ -1285,16 +1318,16 @@
       "persistent": null
     },
     {
-      "id": "text_041",
+      "id": "text_042",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 6.5,
       "t1": 7.6,
       "text": "27.0 m",
       "bbox": [
-        0.3009,
+        0.3019,
         0.7944,
-        0.1232,
+        0.1222,
         0.0417
       ],
       "style": {
@@ -1302,7 +1335,7 @@
         "fill_name": "branco",
         "weight": 0.103
       },
-      "style_zh": "texto branco, altura da linha 4.1% (cerca de 44px)",
+      "style_zh": "texto branco, altura da linha 4.2% (cerca de 45px)",
       "anim_in": {
         "kind": "cut",
         "kind_zh": "entrada seca"
@@ -1318,7 +1351,7 @@
       "persistent": null
     },
     {
-      "id": "text_042",
+      "id": "text_043",
       "kind": "label",
       "kind_zh": "rótulo de texto",
       "t0": 8.0,
@@ -1351,24 +1384,24 @@
       "persistent": null
     },
     {
-      "id": "text_044",
+      "id": "text_045",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 8.0,
       "t1": 8.2,
       "text": "29.2 m",
       "bbox": [
-        0.3009,
+        0.3019,
         0.7944,
-        0.1231,
-        0.0407
+        0.1222,
+        0.0417
       ],
       "style": {
         "fill": "#e4f0f6",
         "fill_name": "branco",
-        "weight": 0.124
+        "weight": 0.122
       },
-      "style_zh": "texto branco, altura da linha 4.1% (cerca de 44px)",
+      "style_zh": "texto branco, altura da linha 4.2% (cerca de 45px)",
       "anim_in": {
         "kind": "cut",
         "kind_zh": "entrada seca"
@@ -1384,7 +1417,7 @@
       "persistent": null
     },
     {
-      "id": "text_045",
+      "id": "text_046",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 8.5,
@@ -1397,7 +1430,7 @@
         0.0417
       ],
       "style": {
-        "fill": "#e6f1f5",
+        "fill": "#e4f0f6",
         "fill_name": "branco",
         "weight": 0.103
       },
@@ -1417,7 +1450,7 @@
       "persistent": null
     },
     {
-      "id": "text_046",
+      "id": "text_047",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 9.0,
@@ -1450,7 +1483,7 @@
       "persistent": null
     },
     {
-      "id": "text_047",
+      "id": "text_048",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 9.0,
@@ -1483,12 +1516,12 @@
       "persistent": null
     },
     {
-      "id": "text_049",
+      "id": "text_050",
       "kind": "label",
       "kind_zh": "rótulo de texto",
       "t0": 9.5,
       "t1": 11.6,
-      "text": "t087.8s",
+      "text": "t080.3s",
       "bbox": [
         0.738,
         0.7296,
@@ -1496,7 +1529,7 @@
         0.0269
       ],
       "style": {
-        "fill": "#95a6af",
+        "fill": "#96a7b1",
         "fill_name": "cinza",
         "weight": 0.064
       },
@@ -1516,7 +1549,7 @@
       "persistent": null
     },
     {
-      "id": "text_050",
+      "id": "text_051",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 10.0,
@@ -1529,7 +1562,7 @@
         0.037
       ],
       "style": {
-        "fill": "#e6f1f5",
+        "fill": "#e5f0f4",
         "fill_name": "branco",
         "weight": 0.119
       },
@@ -1549,7 +1582,7 @@
       "persistent": null
     },
     {
-      "id": "text_051",
+      "id": "text_052",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 10.5,
@@ -1559,14 +1592,14 @@
         0.3019,
         0.7944,
         0.1213,
-        0.0407
+        0.0417
       ],
       "style": {
-        "fill": "#e6f1f5",
+        "fill": "#e7f2f6",
         "fill_name": "branco",
-        "weight": 0.106
+        "weight": 0.103
       },
-      "style_zh": "texto branco, altura da linha 4.1% (cerca de 44px)",
+      "style_zh": "texto branco, altura da linha 4.2% (cerca de 45px)",
       "anim_in": {
         "kind": "cut",
         "kind_zh": "entrada seca"
@@ -1579,7 +1612,7 @@
       "persistent": null
     },
     {
-      "id": "text_052",
+      "id": "text_053",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 11.0,
@@ -1594,7 +1627,7 @@
       "style": {
         "fill": "#e6f1f5",
         "fill_name": "branco",
-        "weight": 0.106
+        "weight": 0.124
       },
       "style_zh": "texto branco, altura da linha 4.1% (cerca de 44px)",
       "anim_in": {
@@ -1612,7 +1645,7 @@
       "persistent": null
     },
     {
-      "id": "text_053",
+      "id": "text_054",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 10.9,
@@ -1627,7 +1660,7 @@
       "style": {
         "fill": "#e6f1f5",
         "fill_name": "branco",
-        "weight": 0.147
+        "weight": 0.144
       },
       "style_zh": "texto branco, altura da linha 3.7% (cerca de 40px)",
       "anim_in": {
@@ -1645,7 +1678,7 @@
       "persistent": null
     },
     {
-      "id": "text_060",
+      "id": "text_061",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 13.0,
@@ -1675,14 +1708,14 @@
       "persistent": null
     },
     {
-      "id": "text_063",
+      "id": "text_064",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 14.0,
       "t1": 16.1,
       "text": "776",
       "bbox": [
-        0.5528,
+        0.5537,
         0.7963,
         0.0685,
         0.037
@@ -1702,7 +1735,7 @@
       "persistent": null
     },
     {
-      "id": "text_054",
+      "id": "text_055",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 11.5,
@@ -1715,7 +1748,7 @@
         0.0417
       ],
       "style": {
-        "fill": "#e6f1f5",
+        "fill": "#e5f0f4",
         "fill_name": "branco",
         "weight": 0.103
       },
@@ -1735,12 +1768,12 @@
       "persistent": null
     },
     {
-      "id": "text_055",
+      "id": "text_056",
       "kind": "label",
       "kind_zh": "rótulo de texto",
       "t0": 12.0,
       "t1": 13.1,
-      "text": "t095.3s",
+      "text": "t091.6 s",
       "bbox": [
         0.7398,
         0.7324,
@@ -1748,7 +1781,7 @@
         0.0222
       ],
       "style": {
-        "fill": "#94a5ae",
+        "fill": "#96a6ae",
         "fill_name": "cinza",
         "weight": 0.08
       },
@@ -1768,7 +1801,7 @@
       "persistent": null
     },
     {
-      "id": "text_056",
+      "id": "text_057",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 12.0,
@@ -1801,7 +1834,7 @@
       "persistent": null
     },
     {
-      "id": "text_058",
+      "id": "text_059",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 12.5,
@@ -1834,7 +1867,7 @@
       "persistent": null
     },
     {
-      "id": "text_057",
+      "id": "text_058",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 12.5,
@@ -1847,7 +1880,7 @@
         0.0435
       ],
       "style": {
-        "fill": "#e5f0f4",
+        "fill": "#e6f1f5",
         "fill_name": "branco",
         "weight": 0.101
       },
@@ -1867,7 +1900,7 @@
       "persistent": null
     },
     {
-      "id": "text_059",
+      "id": "text_060",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 13.0,
@@ -1900,22 +1933,22 @@
       "persistent": null
     },
     {
-      "id": "text_061",
+      "id": "text_062",
       "kind": "label",
       "kind_zh": "rótulo de texto",
       "t0": 13.5,
       "t1": 14.6,
-      "text": "t 106.6 s",
+      "text": "t110.3 s",
       "bbox": [
         0.7389,
-        0.7324,
-        0.1111,
-        0.0222
+        0.7296,
+        0.112,
+        0.0269
       ],
       "style": {
-        "fill": "#99a6af",
+        "fill": "#98a6b1",
         "fill_name": "cinza",
-        "weight": 0.08
+        "weight": 0.064
       },
       "style_zh": "texto cinza, altura da linha 2.2% (cerca de 24px)",
       "anim_in": {
@@ -1933,7 +1966,7 @@
       "persistent": null
     },
     {
-      "id": "text_062",
+      "id": "text_063",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 13.5,
@@ -1966,12 +1999,12 @@
       "persistent": null
     },
     {
-      "id": "text_064",
+      "id": "text_065",
       "kind": "label",
       "kind_zh": "rótulo de texto",
       "t0": 15.0,
       "t1": 16.1,
-      "text": "t 121.6 s",
+      "text": "t 117.8 s",
       "bbox": [
         0.7389,
         0.7306,
@@ -1979,7 +2012,7 @@
         0.0241
       ],
       "style": {
-        "fill": "#96a6ae",
+        "fill": "#98a6b1",
         "fill_name": "cinza",
         "weight": 0.073
       },
@@ -1999,12 +2032,12 @@
       "persistent": null
     },
     {
-      "id": "text_065",
+      "id": "text_066",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 15.0,
       "t1": 16.1,
-      "text": "45.1 m",
+      "text": "46.7 m",
       "bbox": [
         0.3009,
         0.7935,
@@ -2032,12 +2065,12 @@
       "persistent": null
     },
     {
-      "id": "text_066",
+      "id": "text_067",
       "kind": "label",
       "kind_zh": "rótulo de texto",
       "t0": 16.5,
       "t1": 18.6,
-      "text": "t136.6 s",
+      "text": "t125.3s",
       "bbox": [
         0.7398,
         0.7324,
@@ -2045,7 +2078,7 @@
         0.0222
       ],
       "style": {
-        "fill": "#97a4ad",
+        "fill": "#97a5af",
         "fill_name": "cinza",
         "weight": 0.08
       },
@@ -2065,7 +2098,7 @@
       "persistent": null
     },
     {
-      "id": "text_067",
+      "id": "text_068",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 16.5,
@@ -2098,7 +2131,7 @@
       "persistent": null
     },
     {
-      "id": "text_068",
+      "id": "text_069",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 16.5,
@@ -2131,7 +2164,7 @@
       "persistent": null
     },
     {
-      "id": "text_077",
+      "id": "text_078",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 20.5,
@@ -2161,22 +2194,22 @@
       "persistent": null
     },
     {
-      "id": "text_070",
+      "id": "text_071",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 17.0,
       "t1": 17.6,
-      "text": "51.3 m",
+      "text": "53.2 m",
       "bbox": [
         0.3019,
-        0.7935,
+        0.7944,
         0.1222,
-        0.0426
+        0.0417
       ],
       "style": {
-        "fill": "#e6f2f8",
+        "fill": "#e5f1f7",
         "fill_name": "branco",
-        "weight": 0.101
+        "weight": 0.103
       },
       "style_zh": "texto branco, altura da linha 4.2% (cerca de 45px)",
       "anim_in": {
@@ -2194,7 +2227,7 @@
       "persistent": null
     },
     {
-      "id": "text_069",
+      "id": "text_070",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 17.0,
@@ -2207,11 +2240,11 @@
         0.0435
       ],
       "style": {
-        "fill": "#e4f0f6",
+        "fill": "#e5f1f7",
         "fill_name": "branco",
         "weight": 0.101
       },
-      "style_zh": "texto branco, altura da linha 3.9% (cerca de 42px)",
+      "style_zh": "texto branco, altura da linha 4.3% (cerca de 47px)",
       "anim_in": {
         "kind": "cut",
         "kind_zh": "entrada seca"
@@ -2227,7 +2260,7 @@
       "persistent": null
     },
     {
-      "id": "text_071",
+      "id": "text_072",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 18.0,
@@ -2257,7 +2290,7 @@
       "persistent": null
     },
     {
-      "id": "text_072",
+      "id": "text_073",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 18.5,
@@ -2290,12 +2323,12 @@
       "persistent": null
     },
     {
-      "id": "text_073",
+      "id": "text_074",
       "kind": "label",
       "kind_zh": "rótulo de texto",
       "t0": 19.0,
       "t1": 20.1,
-      "text": "t147.8 s",
+      "text": "t 144.1s",
       "bbox": [
         0.7389,
         0.7306,
@@ -2303,7 +2336,7 @@
         0.0241
       ],
       "style": {
-        "fill": "#96a6ae",
+        "fill": "#95a6af",
         "fill_name": "cinza",
         "weight": 0.073
       },
@@ -2323,7 +2356,7 @@
       "persistent": null
     },
     {
-      "id": "text_074",
+      "id": "text_075",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 20.0,
@@ -2332,11 +2365,11 @@
       "bbox": [
         0.3028,
         0.7944,
-        0.1204,
+        0.1213,
         0.0426
       ],
       "style": {
-        "fill": "#e5f1f7",
+        "fill": "#e4f0f6",
         "fill_name": "branco",
         "weight": 0.101
       },
@@ -2356,12 +2389,12 @@
       "persistent": null
     },
     {
-      "id": "text_075",
+      "id": "text_076",
       "kind": "label",
       "kind_zh": "rótulo de texto",
       "t0": 20.5,
       "t1": 21.1,
-      "text": "t 159.1 s",
+      "text": "t155.3 s",
       "bbox": [
         0.7398,
         0.7324,
@@ -2369,7 +2402,7 @@
         0.0222
       ],
       "style": {
-        "fill": "#97a5af",
+        "fill": "#96a3ac",
         "fill_name": "cinza",
         "weight": 0.08
       },
@@ -2389,7 +2422,7 @@
       "persistent": null
     },
     {
-      "id": "text_076",
+      "id": "text_077",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 20.5,
@@ -2399,14 +2432,14 @@
         0.3028,
         0.7944,
         0.1213,
-        0.0407
+        0.0417
       ],
       "style": {
         "fill": "#e5f1f7",
         "fill_name": "branco",
-        "weight": 0.106
+        "weight": 0.103
       },
-      "style_zh": "texto branco, altura da linha 4.1% (cerca de 44px)",
+      "style_zh": "texto branco, altura da linha 4.2% (cerca de 45px)",
       "anim_in": {
         "kind": "cut",
         "kind_zh": "entrada seca"
@@ -2422,7 +2455,7 @@
       "persistent": null
     },
     {
-      "id": "text_078",
+      "id": "text_079",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 21.0,
@@ -2455,7 +2488,7 @@
       "persistent": null
     },
     {
-      "id": "text_079",
+      "id": "text_080",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 21.0,
@@ -2468,44 +2501,11 @@
         0.0417
       ],
       "style": {
-        "fill": "#e5f0f4",
+        "fill": "#e7f2f6",
         "fill_name": "branco",
         "weight": 0.103
       },
-      "style_zh": "texto branco, altura da linha 4.1% (cerca de 44px)",
-      "anim_in": {
-        "kind": "cut",
-        "kind_zh": "entrada seca"
-      },
-      "anim_out": {
-        "kind": "cut_out",
-        "kind_zh": "saída seca"
-      },
-      "mid_motion": null,
-      "follows": null,
-      "part_of_picture": true,
-      "anchor": null,
-      "persistent": null
-    },
-    {
-      "id": "text_080",
-      "kind": "label",
-      "kind_zh": "rótulo de texto",
-      "t0": 21.5,
-      "t1": 22.1,
-      "text": "t 166.6 s",
-      "bbox": [
-        0.7398,
-        0.7324,
-        0.1102,
-        0.0222
-      ],
-      "style": {
-        "fill": "#95a5ad",
-        "fill_name": "cinza",
-        "weight": 0.08
-      },
-      "style_zh": "texto cinza, altura da linha 2.2% (cerca de 24px)",
+      "style_zh": "texto branco, altura da linha 4.2% (cerca de 45px)",
       "anim_in": {
         "kind": "cut",
         "kind_zh": "entrada seca"
@@ -2524,21 +2524,21 @@
       "id": "text_081",
       "kind": "label",
       "kind_zh": "rótulo de texto",
-      "t0": 22.5,
-      "t1": 23.6,
-      "text": "t 177.8 s",
+      "t0": 21.5,
+      "t1": 22.1,
+      "text": "t166.6 s",
       "bbox": [
         0.7389,
-        0.7306,
+        0.7315,
         0.1111,
         0.0241
       ],
       "style": {
-        "fill": "#97a7af",
+        "fill": "#96a6ae",
         "fill_name": "cinza",
         "weight": 0.073
       },
-      "style_zh": "texto cinza, altura da linha 2.2% (cerca de 24px)",
+      "style_zh": "texto cinza, altura da linha 2.3% (cerca de 25px)",
       "anim_in": {
         "kind": "cut",
         "kind_zh": "entrada seca"
@@ -2554,7 +2554,40 @@
       "persistent": null
     },
     {
-      "id": "text_083",
+      "id": "text_082",
+      "kind": "label",
+      "kind_zh": "rótulo de texto",
+      "t0": 22.5,
+      "t1": 23.6,
+      "text": "t 170.3 s",
+      "bbox": [
+        0.738,
+        0.7296,
+        0.113,
+        0.0269
+      ],
+      "style": {
+        "fill": "#97a7af",
+        "fill_name": "cinza",
+        "weight": 0.064
+      },
+      "style_zh": "texto cinza, altura da linha 2.5% (cerca de 27px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_084",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 22.5,
@@ -2581,12 +2614,12 @@
       "persistent": null
     },
     {
-      "id": "text_082",
+      "id": "text_083",
       "kind": "counter",
       "kind_zh": "contador",
       "t0": 22.5,
       "t1": 23.6,
-      "text": "69.1 m",
+      "text": "69.4 m",
       "bbox": [
         0.3028,
         0.7944,
@@ -2594,7 +2627,7 @@
         0.0417
       ],
       "style": {
-        "fill": "#e5f0f4",
+        "fill": "#e6f1f5",
         "fill_name": "branco",
         "weight": 0.103
       },
@@ -2607,6 +2640,42 @@
         "kind": "cut_out",
         "kind_zh": "saída seca"
       },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_085",
+      "kind": "huazi",
+      "kind_zh": "texto estilizado",
+      "t0": 23.3,
+      "t1": 24.0,
+      "text": "FIM",
+      "bbox": [
+        0.7861,
+        0.438,
+        0.0269,
+        0.0167
+      ],
+      "style": {
+        "fill": "#1a3035",
+        "fill_name": "preto",
+        "stroke": "#141319",
+        "stroke_name": "preto",
+        "stroke_ratio": 0.144,
+        "multicolor": true,
+        "highlight": "#d08a84",
+        "highlight_name": "vermelho",
+        "weight": 0.106
+      },
+      "style_zh": "texto preto, contorno preto, palavras-chave destacadas em vermelho, altura da linha 1.7% (cerca de 18px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": null,
       "mid_motion": null,
       "follows": null,
       "part_of_picture": true,
