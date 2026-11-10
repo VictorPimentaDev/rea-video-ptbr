@@ -1,3 +1,14 @@
+> **Versão em português do Brasil, por Victor Pimenta.** Este repositório é um fork do [rea-video](https://github.com/JuneYaooo/rea-video), criado por **JuneYaooo** e distribuído sob a licença Apache-2.0 (veja [LICENSE](LICENSE) e [NOTICE](NOTICE), mantidos sem alteração). Todo o mérito da ferramenta é do autor original.
+>
+> Alterações feitas nesta versão:
+> - novo idioma de relatório `pt-BR` (`--lang pt-BR` ou `rea-video prefs lang pt-BR`), com catálogo de tradução em `rea_video/i18n_pt_br.py`; os idiomas `zh` e `en` continuam iguais
+> - a VLM responde em português quando o relatório é pt-BR, e os prompts de geração de imagem e vídeo continuam em inglês
+> - ajustes em `rea_video/plan.py` e `rea_video/production.py` para que os nomes de enquadramento traduzidos continuem ordenando os setups e gerando prompts em inglês
+> - documentação em pt-BR em [docs/pt-BR/](docs/pt-BR/) e README em português revisado em [i18n/README_pt.md](i18n/README_pt.md)
+> - correção em `scripts/install_skill.sh` (variável `$PY` lida junto com o caractere seguinte e quebrando com `set -u`)
+> - teste novo `tests/test_i18n_pt_br.py`
+
+
 <div align="center">
 
 <picture>
@@ -56,7 +67,7 @@ You get:
 
 You can also hook up a video-capable model (Gemini or Doubao both work) by giving the agent its endpoint and key. That makes the live/AI/3D calls more accurate and adds a reverse-engineered prompt for every shot. It works fine without one; if your agent can see images, it checks the uncertain shots itself.
 
-> Reports are written in whichever language you ask in (Chinese or English). The example reports below are in English.
+> Reports are written in whichever language you ask in (Chinese, English or Brazilian Portuguese, `--lang pt-BR`). The example reports below are in English.
 
 ## What it can break down
 

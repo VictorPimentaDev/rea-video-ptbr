@@ -1,3 +1,14 @@
+> **Versão em português do Brasil, por Victor Pimenta.** Este repositório é um fork do [rea-video](https://github.com/JuneYaooo/rea-video), criado por **JuneYaooo** e distribuído sob a licença Apache-2.0 (veja [LICENSE](../LICENSE) e [NOTICE](../NOTICE), mantidos sem alteração). Todo o mérito da ferramenta é do autor original.
+>
+> Alterações feitas nesta versão:
+> - novo idioma de relatório `pt-BR` (`--lang pt-BR` ou `rea-video prefs lang pt-BR`), com catálogo de tradução em `rea_video/i18n_pt_br.py`; os idiomas `zh` e `en` continuam iguais
+> - a VLM responde em português quando o relatório é pt-BR, e os prompts de geração de imagem e vídeo continuam em inglês
+> - ajustes em `rea_video/plan.py` e `rea_video/production.py` para que os nomes de enquadramento traduzidos continuem ordenando os setups e gerando prompts em inglês
+> - documentação em pt-BR em [docs/pt-BR/](../docs/pt-BR/) e README em português revisado em [i18n/README_pt.md](README_pt.md)
+> - correção em `scripts/install_skill.sh` (variável `$PY` lida junto com o caractere seguinte e quebrando com `set -u`)
+> - teste novo `tests/test_i18n_pt_br.py`
+
+
 <div align="center">
 
 <picture>
@@ -54,9 +65,21 @@ O que você recebe:
 - um plano de remake, separando o que filmar, o que gerar e o que programar
 - um `report.html` completo, com quadros de cada plano, evidências, prompts, anotações de câmera e iluminação e a análise do áudio
 
-Dá para adicionar um modelo que entenda vídeo — Gemini ou Doubao servem: é só passar o endpoint e a chave para o agente. Com ele, a separação entre real, IA e 3D fica mais precisa, e cada plano ganha um prompt reconstruído. Sem ele, tudo continua funcionando; se o seu agente enxerga imagens, ele mesmo revisa os planos em que ficou na dúvida.
+Dá para adicionar um modelo que entenda vídeo (Gemini ou Doubao servem): é só passar o endpoint e a chave para o agente. Com ele, a separação entre real, IA e 3D fica mais precisa, e cada plano ganha um prompt reconstruído. Sem ele, tudo continua funcionando; se o seu agente enxerga imagens, ele mesmo revisa os planos em que ficou na dúvida.
 
-> O relatório sai no idioma em que você pedir (chinês ou inglês). Os relatórios de exemplo abaixo estão em inglês.
+> O relatório sai no idioma em que você pedir: chinês, inglês ou português do Brasil. Os relatórios de exemplo abaixo estão em inglês.
+
+### Relatório em português (pt-BR)
+
+Peça a análise em português para o agente, ou passe a opção você mesmo:
+
+```bash
+rea-video decompose video.mp4 -o out/video --lang pt-BR
+rea-video prefs lang pt-BR                  # deixa pt-BR como padrão
+rea-video apply-review out/video --lang pt-BR   # refaz em pt-BR um relatório já gerado
+```
+
+Conclusões, evidências, tabelas, `report.md`, `report.html` e a saída de `summary` saem em português. Com um modelo de visão configurado, as descrições dele também vêm em português; os prompts de geração de imagem e vídeo ficam em inglês, que é o idioma em que esses modelos funcionam melhor. Um texto que ainda não tenha tradução aparece em inglês.
 
 ## O que dá para analisar
 
@@ -230,7 +253,7 @@ Não. O rea-video serve para aprender a estrutura, o ritmo e as técnicas de um 
 - [rea_video/capabilities/](../rea_video/capabilities/README.md): tabelas de capacidades dos modelos de vídeo / imagem / áudio, usadas para escolher os modelos no plano de remake
 - [eval/RESULTS.md](../eval/RESULTS.md): resultados da avaliação
 
-Por enquanto, a documentação está só em chinês.
+A documentação em português do Brasil está em [docs/pt-BR/](../docs/pt-BR/): [o que ele detecta](../docs/pt-BR/what-it-detects.md), [como refazer](../docs/pt-BR/replicate.md), [casos](../docs/pt-BR/cases.md), [regras de detecção](../docs/pt-BR/decompose.md), [CLI](../docs/pt-BR/cli.md) e [capsule-cinema](../docs/pt-BR/capsule-cinema.md). Os links acima apontam para os originais em chinês.
 
 ## Comunidade
 
