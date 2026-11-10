@@ -105,6 +105,13 @@ Além de como a imagem foi feita, a análise de qualquer vídeo também traz:
 
 Os vídeos de exemplo em `docs/cases/videos/` foram recomprimidos para deixar o repo mais leve, e isso apaga as tags de plataforma do TikTok / Douyin. Então, se você rodar com eles, o resultado vai sair diferente dos relatórios abaixo, principalmente sem um modelo de visão. Para reproduzir, use o arquivo original baixado da plataforma.
 
+### Teste em pt-BR
+
+Vídeo de 24 s de uma simulação de robô aspirador com LiDAR, analisado com `rea-video decompose video.mp4 --lang pt-BR`, sem modelo de visão. Levou 37 s num MacBook. O relatório saiu todo em português: identificou animação feita por código (69%), leu os títulos, rótulos e contadores da tela, viu que não tem áudio e montou o plano de remake em Remotion. Resumo do conteúdo e elenco precisam de um VLM configurado.
+
+<a href="../docs/cases/lidar_ptbr/report.md"><img src="../docs/cases/lidar_ptbr/storyboard.jpg" width="220"></a><br>
+<a href="../docs/cases/videos/lidar_ptbr.mp4">Vídeo</a> · <a href="../docs/cases/lidar_ptbr/report.md">Relatório em pt-BR</a>
+
 <table>
 <tr>
 <td width="50%" valign="top">

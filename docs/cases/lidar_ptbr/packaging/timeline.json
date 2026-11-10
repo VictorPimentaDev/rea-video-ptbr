@@ -1,0 +1,2619 @@
+{
+  "text": [
+    {
+      "id": "text_001",
+      "kind": "title",
+      "kind_zh": "título",
+      "t0": 0.0,
+      "t1": 24.0,
+      "text": "SIMULACAOPROPRIA",
+      "bbox": [
+        0.7519,
+        0.037,
+        0.1833,
+        0.0269
+      ],
+      "style": {
+        "fill": "#172f35",
+        "fill_name": "preto",
+        "stroke": "#79e2ca",
+        "stroke_name": "ciano",
+        "stroke_ratio": 0.064,
+        "weight": 0.183
+      },
+      "style_zh": "texto preto, contorno ciano, altura da linha 2.6% (cerca de 28px)",
+      "anim_in": null,
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_002",
+      "kind": "title",
+      "kind_zh": "título",
+      "t0": 0.0,
+      "t1": 24.0,
+      "text": "ROBOTICA/LiDAR",
+      "bbox": [
+        0.0528,
+        0.0407,
+        0.1898,
+        0.0231
+      ],
+      "style": {
+        "fill": "#7be3c9",
+        "fill_name": "ciano",
+        "weight": 0.076
+      },
+      "style_zh": "texto ciano, altura da linha 2.3% (cerca de 25px)",
+      "anim_in": null,
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_003",
+      "kind": "title",
+      "kind_zh": "título",
+      "t0": 0.0,
+      "t1": 24.0,
+      "text": ") que o robo enxerga.",
+      "bbox": [
+        0.0463,
+        0.0972,
+        0.613,
+        0.0648
+      ],
+      "style": {
+        "fill": "#e6f1f5",
+        "fill_name": "branco",
+        "weight": 0.109
+      },
+      "style_zh": "texto branco, altura da linha 6.5% (cerca de 70px)",
+      "anim_in": null,
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_004",
+      "kind": "title",
+      "kind_zh": "título",
+      "t0": 0.0,
+      "t1": 24.0,
+      "text": "Mediro ambiente.Desviar.Continuarlimpando.",
+      "bbox": [
+        0.0519,
+        0.1676,
+        0.4963,
+        0.0259
+      ],
+      "style": {
+        "fill": "#96a7b1",
+        "fill_name": "cinza",
+        "weight": 0.071
+      },
+      "style_zh": "texto cinza, altura da linha 2.6% (cerca de 28px)",
+      "anim_in": null,
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_005",
+      "kind": "label",
+      "kind_zh": "rótulo de texto",
+      "t0": 0.0,
+      "t1": 24.0,
+      "text": "●retornos LiDAR",
+      "bbox": [
+        0.0509,
+        0.7296,
+        0.1583,
+        0.0269
+      ],
+      "style": {
+        "fill": "#7ae3cb",
+        "fill_name": "ciano",
+        "weight": 0.064
+      },
+      "style_zh": "texto ciano, altura da linha 2.4% (cerca de 26px)",
+      "anim_in": null,
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_007",
+      "kind": "huazi",
+      "kind_zh": "texto estilizado",
+      "t0": 0.0,
+      "t1": 24.0,
+      "text": "— trajetoria",
+      "bbox": [
+        0.275,
+        0.7306,
+        0.1093,
+        0.0278
+      ],
+      "style": {
+        "fill": "#4b3a24",
+        "fill_name": "marrom",
+        "multicolor": true,
+        "highlight": "#dfbf92",
+        "highlight_name": "laranja",
+        "weight": 0.064
+      },
+      "style_zh": "texto marrom, palavras-chave destacadas em laranja, altura da linha 2.7% (cerca de 29px)",
+      "anim_in": null,
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_008",
+      "kind": "label",
+      "kind_zh": "rótulo de texto",
+      "t0": 0.0,
+      "t1": 24.0,
+      "text": "■areavarrida",
+      "bbox": [
+        0.4556,
+        0.7324,
+        0.1287,
+        0.0231
+      ],
+      "style": {
+        "fill": "#70b0a5",
+        "fill_name": "ciano",
+        "weight": 0.153
+      },
+      "style_zh": "texto ciano, altura da linha 2.3% (cerca de 25px)",
+      "anim_in": null,
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_006",
+      "kind": "label",
+      "kind_zh": "rótulo de texto",
+      "t0": 0.0,
+      "t1": 5.1,
+      "text": "t035.3s",
+      "bbox": [
+        0.738,
+        0.7296,
+        0.113,
+        0.0269
+      ],
+      "style": {
+        "fill": "#97a5af",
+        "fill_name": "cinza",
+        "weight": 0.064
+      },
+      "style_zh": "texto cinza, altura da linha 2.2% (cerca de 24px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_009",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 0.0,
+      "t1": 0.1,
+      "text": "2%",
+      "bbox": [
+        0.0491,
+        0.7944,
+        0.0639,
+        0.0407
+      ],
+      "style": {
+        "fill": "#e4f0f6",
+        "fill_name": "branco",
+        "weight": 0.087
+      },
+      "style_zh": "texto branco, altura da linha 4.1% (cerca de 44px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_010",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 0.0,
+      "t1": 0.1,
+      "text": "1.2 m",
+      "bbox": [
+        0.3019,
+        0.7944,
+        0.1019,
+        0.0417
+      ],
+      "style": {
+        "fill": "#e5f1f7",
+        "fill_name": "branco",
+        "weight": 0.122
+      },
+      "style_zh": "texto branco, altura da linha 4.2% (cerca de 45px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_011",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 0.0,
+      "t1": 0.1,
+      "text": "262",
+      "bbox": [
+        0.5528,
+        0.7963,
+        0.0694,
+        0.037
+      ],
+      "style": {
+        "fill": "#e8f2f8",
+        "fill_name": "branco",
+        "weight": 0.119
+      },
+      "style_zh": "texto branco, altura da linha 3.7% (cerca de 40px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_012",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 0.0,
+      "t1": 24.0,
+      "text": "120",
+      "bbox": [
+        0.8037,
+        0.7963,
+        0.0676,
+        0.037
+      ],
+      "style": {
+        "fill": "#e6f1f5",
+        "fill_name": "branco",
+        "weight": 0.119
+      },
+      "style_zh": "texto branco, altura da linha 3.7% (cerca de 40px)",
+      "anim_in": null,
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_014",
+      "kind": "label",
+      "kind_zh": "rótulo de texto",
+      "t0": 0.0,
+      "t1": 24.0,
+      "text": "DISTANCIA",
+      "bbox": [
+        0.3037,
+        0.8417,
+        0.0954,
+        0.0222
+      ],
+      "style": {
+        "fill": "#95a6af",
+        "fill_name": "cinza",
+        "weight": 0.08
+      },
+      "style_zh": "texto cinza, altura da linha 2.1% (cerca de 23px)",
+      "anim_in": null,
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_015",
+      "kind": "label",
+      "kind_zh": "rótulo de texto",
+      "t0": 0.0,
+      "t1": 24.0,
+      "text": "PISOVARRIDO",
+      "bbox": [
+        0.0509,
+        0.8426,
+        0.1269,
+        0.0213
+      ],
+      "style": {
+        "fill": "#94a5ae",
+        "fill_name": "cinza",
+        "weight": 0.083
+      },
+      "style_zh": "texto cinza, altura da linha 2.1% (cerca de 23px)",
+      "anim_in": null,
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_016",
+      "kind": "label",
+      "kind_zh": "rótulo de texto",
+      "t0": 0.0,
+      "t1": 24.0,
+      "text": "PONTOS UNICOS*",
+      "bbox": [
+        0.5528,
+        0.8426,
+        0.15,
+        0.0213
+      ],
+      "style": {
+        "fill": "#96a4ae",
+        "fill_name": "cinza",
+        "weight": 0.083
+      },
+      "style_zh": "texto cinza, altura da linha 2.1% (cerca de 23px)",
+      "anim_in": null,
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_013",
+      "kind": "label",
+      "kind_zh": "rótulo de texto",
+      "t0": 0.0,
+      "t1": 24.0,
+      "text": "RAIOS/SCAN",
+      "bbox": [
+        0.8009,
+        0.8407,
+        0.1213,
+        0.0241
+      ],
+      "style": {
+        "fill": "#94a5ae",
+        "fill_name": "cinza",
+        "weight": 0.073
+      },
+      "style_zh": "texto cinza, altura da linha 2.4% (cerca de 26px)",
+      "anim_in": null,
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_017",
+      "kind": "label",
+      "kind_zh": "rótulo de texto",
+      "t0": 0.0,
+      "t1": 24.0,
+      "text": "LiDARplanar em cena3D",
+      "bbox": [
+        0.05,
+        0.8898,
+        0.2389,
+        0.025
+      ],
+      "style": {
+        "fill": "#06121d",
+        "fill_name": "preto",
+        "weight": 0.141
+      },
+      "style_zh": "texto preto, altura da linha 2.5% (cerca de 27px)",
+      "anim_in": null,
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_018",
+      "kind": "label",
+      "kind_zh": "rótulo de texto",
+      "t0": 0.0,
+      "t1": 24.0,
+      "text": "mapa conhecido·reproducao 7.5x",
+      "bbox": [
+        0.3074,
+        0.8907,
+        0.3296,
+        0.0251
+      ],
+      "style": {
+        "fill": "#95a6af",
+        "fill_name": "cinza",
+        "weight": 0.068
+      },
+      "style_zh": "texto cinza, altura da linha 2.5% (cerca de 27px)",
+      "anim_in": null,
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_019",
+      "kind": "label",
+      "kind_zh": "rótulo de texto",
+      "t0": 0.0,
+      "t1": 24.0,
+      "text": "*Retornos acumulados em celulas de5 cm.SemSLAM ou fisica de contato.",
+      "bbox": [
+        0.0519,
+        0.9231,
+        0.5704,
+        0.0222
+      ],
+      "style": {
+        "fill": "#8496a1",
+        "fill_name": "azul",
+        "weight": 0.08
+      },
+      "style_zh": "texto azul, altura da linha 2.2% (cerca de 24px)",
+      "anim_in": null,
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_021",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 0.5,
+      "t1": 0.6,
+      "text": "4.0 m",
+      "bbox": [
+        0.3,
+        0.7944,
+        0.1037,
+        0.0417
+      ],
+      "style": {
+        "fill": "#e4f0f6",
+        "fill_name": "branco",
+        "weight": 0.103
+      },
+      "style_zh": "texto branco, altura da linha 4.2% (cerca de 45px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_022",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 0.5,
+      "t1": 0.6,
+      "text": "519",
+      "bbox": [
+        0.5537,
+        0.7963,
+        0.0676,
+        0.037
+      ],
+      "style": {
+        "fill": "#e7f1f7",
+        "fill_name": "branco",
+        "weight": 0.119
+      },
+      "style_zh": "texto branco, altura da linha 3.7% (cerca de 40px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_020",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 0.5,
+      "t1": 3.1,
+      "text": "10%",
+      "bbox": [
+        0.05,
+        0.7935,
+        0.0825,
+        0.0426
+      ],
+      "style": {
+        "fill": "#e4f0f6",
+        "fill_name": "branco",
+        "weight": 0.101
+      },
+      "style_zh": "texto branco, altura da linha 4.0% (cerca de 43px)",
+      "anim_in": {
+        "kind": "reveal",
+        "kind_zh": "máquina de escrever"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_023",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 1.0,
+      "t1": 1.1,
+      "text": "6.8 m",
+      "bbox": [
+        0.3019,
+        0.7944,
+        0.1019,
+        0.0417
+      ],
+      "style": {
+        "fill": "#e5f1f7",
+        "fill_name": "branco",
+        "weight": 0.103
+      },
+      "style_zh": "texto branco, altura da linha 4.2% (cerca de 45px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_024",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 1.0,
+      "t1": 1.1,
+      "text": "622",
+      "bbox": [
+        0.5546,
+        0.7963,
+        0.0667,
+        0.037
+      ],
+      "style": {
+        "fill": "#e6f2f8",
+        "fill_name": "branco",
+        "weight": 0.119
+      },
+      "style_zh": "texto branco, altura da linha 3.7% (cerca de 40px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_025",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 1.5,
+      "t1": 1.6,
+      "text": "7.5 m",
+      "bbox": [
+        0.3009,
+        0.7935,
+        0.1028,
+        0.0426
+      ],
+      "style": {
+        "fill": "#e6f1f5",
+        "fill_name": "branco",
+        "weight": 0.119
+      },
+      "style_zh": "texto branco, altura da linha 4.3% (cerca de 46px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_026",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 1.5,
+      "t1": 1.7,
+      "text": "651",
+      "bbox": [
+        0.5537,
+        0.7963,
+        0.0657,
+        0.037
+      ],
+      "style": {
+        "fill": "#e5f1f7",
+        "fill_name": "branco",
+        "weight": 0.14
+      },
+      "style_zh": "texto branco, altura da linha 3.7% (cerca de 40px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_027",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 2.0,
+      "t1": 2.6,
+      "text": "10.3 m",
+      "bbox": [
+        0.3019,
+        0.7935,
+        0.1222,
+        0.0426
+      ],
+      "style": {
+        "fill": "#e4f0f6",
+        "fill_name": "branco",
+        "weight": 0.101
+      },
+      "style_zh": "texto branco, altura da linha 4.2% (cerca de 46px)",
+      "anim_in": {
+        "kind": "reveal",
+        "kind_zh": "máquina de escrever"
+      },
+      "anim_out": {
+        "kind": "fade_out",
+        "kind_zh": "fade out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_028",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 2.0,
+      "t1": 2.1,
+      "text": "666",
+      "bbox": [
+        0.5537,
+        0.7963,
+        0.0685,
+        0.037
+      ],
+      "style": {
+        "fill": "#e4f0f6",
+        "fill_name": "branco",
+        "weight": 0.119
+      },
+      "style_zh": "texto branco, altura da linha 3.7% (cerca de 40px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_029",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 2.5,
+      "t1": 3.1,
+      "text": "681",
+      "bbox": [
+        0.5537,
+        0.7963,
+        0.0685,
+        0.037
+      ],
+      "style": {
+        "fill": "#e5f1f7",
+        "fill_name": "branco",
+        "weight": 0.119
+      },
+      "style_zh": "texto branco, altura da linha 3.7% (cerca de 40px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_030",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 3.0,
+      "t1": 4.1,
+      "text": "14.8 m",
+      "bbox": [
+        0.3028,
+        0.7944,
+        0.1213,
+        0.0417
+      ],
+      "style": {
+        "fill": "#e6f1f5",
+        "fill_name": "branco",
+        "weight": 0.122
+      },
+      "style_zh": "texto branco, altura da linha 4.1% (cerca de 44px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_031",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 3.5,
+      "t1": 6.1,
+      "text": "24%",
+      "bbox": [
+        0.05,
+        0.7954,
+        0.0824,
+        0.0398
+      ],
+      "style": {
+        "fill": "#e4f0f6",
+        "fill_name": "branco",
+        "weight": 0.108
+      },
+      "style_zh": "texto branco, altura da linha 3.9% (cerca de 42px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "fade_out",
+        "kind_zh": "fade out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_032",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 3.3,
+      "t1": 4.3,
+      "text": "704",
+      "bbox": [
+        0.5528,
+        0.7963,
+        0.0694,
+        0.037
+      ],
+      "style": {
+        "fill": "#e6f1f5",
+        "fill_name": "branco",
+        "weight": 0.119
+      },
+      "style_zh": "texto branco, altura da linha 3.7% (cerca de 40px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_034",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 4.5,
+      "t1": 5.1,
+      "text": "725",
+      "bbox": [
+        0.5519,
+        0.7963,
+        0.0703,
+        0.037
+      ],
+      "style": {
+        "fill": "#e4f0f6",
+        "fill_name": "branco",
+        "weight": 0.14
+      },
+      "style_zh": "texto branco, altura da linha 3.7% (cerca de 40px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_033",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 4.5,
+      "t1": 5.6,
+      "text": "22.7 m",
+      "bbox": [
+        0.3009,
+        0.7944,
+        0.1232,
+        0.0417
+      ],
+      "style": {
+        "fill": "#e6f1f5",
+        "fill_name": "branco",
+        "weight": 0.122
+      },
+      "style_zh": "texto branco, altura da linha 4.1% (cerca de 44px)",
+      "anim_in": {
+        "kind": "reveal",
+        "kind_zh": "máquina de escrever"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_035",
+      "kind": "label",
+      "kind_zh": "rótulo de texto",
+      "t0": 5.5,
+      "t1": 6.1,
+      "text": "t046.6 s",
+      "bbox": [
+        0.738,
+        0.7296,
+        0.113,
+        0.0269
+      ],
+      "style": {
+        "fill": "#98a6b1",
+        "fill_name": "cinza",
+        "weight": 0.064
+      },
+      "style_zh": "texto cinza, altura da linha 2.5% (cerca de 27px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "fade_out",
+        "kind_zh": "fade out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_036",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 5.5,
+      "t1": 5.6,
+      "text": "732",
+      "bbox": [
+        0.5528,
+        0.7963,
+        0.0694,
+        0.037
+      ],
+      "style": {
+        "fill": "#e5f1f7",
+        "fill_name": "branco",
+        "weight": 0.119
+      },
+      "style_zh": "texto branco, altura da linha 3.7% (cerca de 40px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_037",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 6.0,
+      "t1": 6.1,
+      "text": "24.7 m",
+      "bbox": [
+        0.3009,
+        0.7944,
+        0.1222,
+        0.0407
+      ],
+      "style": {
+        "fill": "#e5f0f4",
+        "fill_name": "branco",
+        "weight": 0.106
+      },
+      "style_zh": "texto branco, altura da linha 4.1% (cerca de 44px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_038",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 6.0,
+      "t1": 8.0,
+      "text": "740",
+      "bbox": [
+        0.5528,
+        0.7963,
+        0.0685,
+        0.037
+      ],
+      "style": {
+        "fill": "#e6f1f5",
+        "fill_name": "branco",
+        "weight": 0.14
+      },
+      "style_zh": "texto branco, altura da linha 3.7% (cerca de 40px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_043",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 8.0,
+      "t1": 8.9,
+      "text": "741",
+      "bbox": [
+        0.55,
+        0.7926,
+        0.0713,
+        0.0435
+      ],
+      "style": {
+        "fill": "#e6f1f5",
+        "fill_name": "branco",
+        "weight": 0.119
+      },
+      "style_zh": "texto branco, altura da linha 4.3% (cerca de 47px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_048",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 9.0,
+      "t1": 9.8,
+      "text": "746",
+      "bbox": [
+        0.5528,
+        0.7963,
+        0.0694,
+        0.037
+      ],
+      "style": {
+        "fill": "#e6f1f5",
+        "fill_name": "branco",
+        "weight": 0.14
+      },
+      "style_zh": "texto branco, altura da linha 3.7% (cerca de 40px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_039",
+      "kind": "label",
+      "kind_zh": "rótulo de texto",
+      "t0": 6.5,
+      "t1": 7.6,
+      "text": "t057.8s",
+      "bbox": [
+        0.7398,
+        0.7324,
+        0.1102,
+        0.0222
+      ],
+      "style": {
+        "fill": "#96a4ae",
+        "fill_name": "cinza",
+        "weight": 0.08
+      },
+      "style_zh": "texto cinza, altura da linha 2.2% (cerca de 24px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_040",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 6.5,
+      "t1": 8.6,
+      "text": "37%",
+      "bbox": [
+        0.0491,
+        0.7926,
+        0.0833,
+        0.0435
+      ],
+      "style": {
+        "fill": "#e4f0f6",
+        "fill_name": "branco",
+        "weight": 0.101
+      },
+      "style_zh": "texto branco, altura da linha 3.9% (cerca de 42px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_041",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 6.5,
+      "t1": 7.6,
+      "text": "27.0 m",
+      "bbox": [
+        0.3009,
+        0.7944,
+        0.1232,
+        0.0417
+      ],
+      "style": {
+        "fill": "#e6f1f5",
+        "fill_name": "branco",
+        "weight": 0.103
+      },
+      "style_zh": "texto branco, altura da linha 4.1% (cerca de 44px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "fade_out",
+        "kind_zh": "fade out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_042",
+      "kind": "label",
+      "kind_zh": "rótulo de texto",
+      "t0": 8.0,
+      "t1": 9.1,
+      "text": "t065.3s",
+      "bbox": [
+        0.7398,
+        0.7324,
+        0.1102,
+        0.0222
+      ],
+      "style": {
+        "fill": "#96a4ae",
+        "fill_name": "cinza",
+        "weight": 0.08
+      },
+      "style_zh": "texto cinza, altura da linha 2.2% (cerca de 24px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_044",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 8.0,
+      "t1": 8.2,
+      "text": "29.2 m",
+      "bbox": [
+        0.3009,
+        0.7944,
+        0.1231,
+        0.0407
+      ],
+      "style": {
+        "fill": "#e4f0f6",
+        "fill_name": "branco",
+        "weight": 0.124
+      },
+      "style_zh": "texto branco, altura da linha 4.1% (cerca de 44px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_045",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 8.5,
+      "t1": 8.6,
+      "text": "30.9 m",
+      "bbox": [
+        0.3019,
+        0.7944,
+        0.1222,
+        0.0417
+      ],
+      "style": {
+        "fill": "#e6f1f5",
+        "fill_name": "branco",
+        "weight": 0.103
+      },
+      "style_zh": "texto branco, altura da linha 4.2% (cerca de 45px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_046",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 9.0,
+      "t1": 12.4,
+      "text": "40%",
+      "bbox": [
+        0.0491,
+        0.7926,
+        0.0833,
+        0.0435
+      ],
+      "style": {
+        "fill": "#e6f1f5",
+        "fill_name": "branco",
+        "weight": 0.101
+      },
+      "style_zh": "texto branco, altura da linha 4.3% (cerca de 47px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_047",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 9.0,
+      "t1": 10.1,
+      "text": "31.7 m",
+      "bbox": [
+        0.3019,
+        0.7944,
+        0.1222,
+        0.0417
+      ],
+      "style": {
+        "fill": "#e6f1f5",
+        "fill_name": "branco",
+        "weight": 0.103
+      },
+      "style_zh": "texto branco, altura da linha 4.1% (cerca de 44px)",
+      "anim_in": {
+        "kind": "reveal",
+        "kind_zh": "máquina de escrever"
+      },
+      "anim_out": {
+        "kind": "fade_out",
+        "kind_zh": "fade out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_049",
+      "kind": "label",
+      "kind_zh": "rótulo de texto",
+      "t0": 9.5,
+      "t1": 11.6,
+      "text": "t087.8s",
+      "bbox": [
+        0.738,
+        0.7296,
+        0.113,
+        0.0269
+      ],
+      "style": {
+        "fill": "#95a6af",
+        "fill_name": "cinza",
+        "weight": 0.064
+      },
+      "style_zh": "texto cinza, altura da linha 2.2% (cerca de 24px)",
+      "anim_in": {
+        "kind": "reveal",
+        "kind_zh": "máquina de escrever"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_050",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 10.0,
+      "t1": 10.8,
+      "text": "769",
+      "bbox": [
+        0.5528,
+        0.7963,
+        0.0694,
+        0.037
+      ],
+      "style": {
+        "fill": "#e6f1f5",
+        "fill_name": "branco",
+        "weight": 0.119
+      },
+      "style_zh": "texto branco, altura da linha 3.7% (cerca de 40px)",
+      "anim_in": {
+        "kind": "fade",
+        "kind_zh": "fade in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_051",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 10.5,
+      "t1": 10.6,
+      "text": "34.4 m",
+      "bbox": [
+        0.3019,
+        0.7944,
+        0.1213,
+        0.0407
+      ],
+      "style": {
+        "fill": "#e6f1f5",
+        "fill_name": "branco",
+        "weight": 0.106
+      },
+      "style_zh": "texto branco, altura da linha 4.1% (cerca de 44px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_052",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 11.0,
+      "t1": 11.1,
+      "text": "35.5 m",
+      "bbox": [
+        0.3019,
+        0.7944,
+        0.1222,
+        0.0407
+      ],
+      "style": {
+        "fill": "#e6f1f5",
+        "fill_name": "branco",
+        "weight": 0.106
+      },
+      "style_zh": "texto branco, altura da linha 4.1% (cerca de 44px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_053",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 10.9,
+      "t1": 12.6,
+      "text": "771",
+      "bbox": [
+        0.5537,
+        0.7963,
+        0.0685,
+        0.037
+      ],
+      "style": {
+        "fill": "#e6f1f5",
+        "fill_name": "branco",
+        "weight": 0.147
+      },
+      "style_zh": "texto branco, altura da linha 3.7% (cerca de 40px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_060",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 13.0,
+      "t1": 13.6,
+      "text": "775",
+      "bbox": [
+        0.5537,
+        0.7963,
+        0.0685,
+        0.037
+      ],
+      "style": {
+        "fill": "#e6f1f5",
+        "fill_name": "branco",
+        "weight": 0.147
+      },
+      "style_zh": "texto branco, altura da linha 3.7% (cerca de 40px)",
+      "anim_in": {
+        "kind": "pop",
+        "kind_zh": "entrada com pop"
+      },
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_063",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 14.0,
+      "t1": 16.1,
+      "text": "776",
+      "bbox": [
+        0.5528,
+        0.7963,
+        0.0685,
+        0.037
+      ],
+      "style": {
+        "fill": "#e6f1f5",
+        "fill_name": "branco",
+        "weight": 0.14
+      },
+      "style_zh": "texto branco, altura da linha 3.7% (cerca de 40px)",
+      "anim_in": null,
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_054",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 11.5,
+      "t1": 11.6,
+      "text": "36.0 m",
+      "bbox": [
+        0.3019,
+        0.7944,
+        0.1222,
+        0.0417
+      ],
+      "style": {
+        "fill": "#e6f1f5",
+        "fill_name": "branco",
+        "weight": 0.103
+      },
+      "style_zh": "texto branco, altura da linha 4.2% (cerca de 45px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_055",
+      "kind": "label",
+      "kind_zh": "rótulo de texto",
+      "t0": 12.0,
+      "t1": 13.1,
+      "text": "t095.3s",
+      "bbox": [
+        0.7398,
+        0.7324,
+        0.1102,
+        0.0222
+      ],
+      "style": {
+        "fill": "#94a5ae",
+        "fill_name": "cinza",
+        "weight": 0.08
+      },
+      "style_zh": "texto cinza, altura da linha 2.2% (cerca de 24px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_056",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 12.0,
+      "t1": 12.1,
+      "text": "37.1 m",
+      "bbox": [
+        0.3019,
+        0.7935,
+        0.1213,
+        0.0426
+      ],
+      "style": {
+        "fill": "#e6f1f5",
+        "fill_name": "branco",
+        "weight": 0.101
+      },
+      "style_zh": "texto branco, altura da linha 4.3% (cerca de 46px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_058",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 12.5,
+      "t1": 12.6,
+      "text": "39.9 m",
+      "bbox": [
+        0.3019,
+        0.7944,
+        0.1222,
+        0.0417
+      ],
+      "style": {
+        "fill": "#e6f1f5",
+        "fill_name": "branco",
+        "weight": 0.103
+      },
+      "style_zh": "texto branco, altura da linha 4.2% (cerca de 45px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_057",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 12.5,
+      "t1": 16.8,
+      "text": "57%",
+      "bbox": [
+        0.05,
+        0.7926,
+        0.0825,
+        0.0435
+      ],
+      "style": {
+        "fill": "#e5f0f4",
+        "fill_name": "branco",
+        "weight": 0.101
+      },
+      "style_zh": "texto branco, altura da linha 4.3% (cerca de 47px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_059",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 13.0,
+      "t1": 13.1,
+      "text": "40.7 m",
+      "bbox": [
+        0.3009,
+        0.7944,
+        0.1222,
+        0.0407
+      ],
+      "style": {
+        "fill": "#e6f1f5",
+        "fill_name": "branco",
+        "weight": 0.106
+      },
+      "style_zh": "texto branco, altura da linha 4.1% (cerca de 44px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_061",
+      "kind": "label",
+      "kind_zh": "rótulo de texto",
+      "t0": 13.5,
+      "t1": 14.6,
+      "text": "t 106.6 s",
+      "bbox": [
+        0.7389,
+        0.7324,
+        0.1111,
+        0.0222
+      ],
+      "style": {
+        "fill": "#99a6af",
+        "fill_name": "cinza",
+        "weight": 0.08
+      },
+      "style_zh": "texto cinza, altura da linha 2.2% (cerca de 24px)",
+      "anim_in": {
+        "kind": "reveal",
+        "kind_zh": "máquina de escrever"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_062",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 13.5,
+      "t1": 14.6,
+      "text": "44.7 m",
+      "bbox": [
+        0.3009,
+        0.7944,
+        0.1231,
+        0.0417
+      ],
+      "style": {
+        "fill": "#e6f1f5",
+        "fill_name": "branco",
+        "weight": 0.103
+      },
+      "style_zh": "texto branco, altura da linha 4.1% (cerca de 44px)",
+      "anim_in": {
+        "kind": "reveal",
+        "kind_zh": "máquina de escrever"
+      },
+      "anim_out": {
+        "kind": "fade_out",
+        "kind_zh": "fade out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_064",
+      "kind": "label",
+      "kind_zh": "rótulo de texto",
+      "t0": 15.0,
+      "t1": 16.1,
+      "text": "t 121.6 s",
+      "bbox": [
+        0.7389,
+        0.7306,
+        0.1111,
+        0.0241
+      ],
+      "style": {
+        "fill": "#96a6ae",
+        "fill_name": "cinza",
+        "weight": 0.073
+      },
+      "style_zh": "texto cinza, altura da linha 2.2% (cerca de 24px)",
+      "anim_in": {
+        "kind": "fade",
+        "kind_zh": "fade in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_065",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 15.0,
+      "t1": 16.1,
+      "text": "45.1 m",
+      "bbox": [
+        0.3009,
+        0.7935,
+        0.1232,
+        0.0426
+      ],
+      "style": {
+        "fill": "#e6f1f5",
+        "fill_name": "branco",
+        "weight": 0.119
+      },
+      "style_zh": "texto branco, altura da linha 4.2% (cerca de 45px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "fade_out",
+        "kind_zh": "fade out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_066",
+      "kind": "label",
+      "kind_zh": "rótulo de texto",
+      "t0": 16.5,
+      "t1": 18.6,
+      "text": "t136.6 s",
+      "bbox": [
+        0.7398,
+        0.7324,
+        0.1102,
+        0.0222
+      ],
+      "style": {
+        "fill": "#97a4ad",
+        "fill_name": "cinza",
+        "weight": 0.08
+      },
+      "style_zh": "texto cinza, altura da linha 2.2% (cerca de 24px)",
+      "anim_in": {
+        "kind": "reveal",
+        "kind_zh": "máquina de escrever"
+      },
+      "anim_out": {
+        "kind": "fade_out",
+        "kind_zh": "fade out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_067",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 16.5,
+      "t1": 16.6,
+      "text": "49.0 m",
+      "bbox": [
+        0.3009,
+        0.7944,
+        0.1231,
+        0.0417
+      ],
+      "style": {
+        "fill": "#e5f1f7",
+        "fill_name": "branco",
+        "weight": 0.103
+      },
+      "style_zh": "texto branco, altura da linha 4.2% (cerca de 45px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_068",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 16.5,
+      "t1": 20.1,
+      "text": "783",
+      "bbox": [
+        0.5528,
+        0.7963,
+        0.0685,
+        0.037
+      ],
+      "style": {
+        "fill": "#e6f1f5",
+        "fill_name": "branco",
+        "weight": 0.119
+      },
+      "style_zh": "texto branco, altura da linha 3.7% (cerca de 40px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_077",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 20.5,
+      "t1": 22.1,
+      "text": "812",
+      "bbox": [
+        0.5528,
+        0.7963,
+        0.0685,
+        0.037
+      ],
+      "style": {
+        "fill": "#e6f1f5",
+        "fill_name": "branco",
+        "weight": 0.119
+      },
+      "style_zh": "texto branco, altura da linha 3.7% (cerca de 40px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_070",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 17.0,
+      "t1": 17.6,
+      "text": "51.3 m",
+      "bbox": [
+        0.3019,
+        0.7935,
+        0.1222,
+        0.0426
+      ],
+      "style": {
+        "fill": "#e6f2f8",
+        "fill_name": "branco",
+        "weight": 0.101
+      },
+      "style_zh": "texto branco, altura da linha 4.2% (cerca de 45px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_069",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 17.0,
+      "t1": 20.6,
+      "text": "63%",
+      "bbox": [
+        0.0491,
+        0.7926,
+        0.0834,
+        0.0435
+      ],
+      "style": {
+        "fill": "#e4f0f6",
+        "fill_name": "branco",
+        "weight": 0.101
+      },
+      "style_zh": "texto branco, altura da linha 3.9% (cerca de 42px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "pop_out",
+        "kind_zh": "saída encolhendo"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_071",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 18.0,
+      "t1": 18.1,
+      "text": "54.0 m",
+      "bbox": [
+        0.3019,
+        0.7944,
+        0.1222,
+        0.0417
+      ],
+      "style": {
+        "fill": "#e5f1f7",
+        "fill_name": "branco",
+        "weight": 0.103
+      },
+      "style_zh": "texto branco, altura da linha 4.2% (cerca de 45px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_072",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 18.5,
+      "t1": 19.6,
+      "text": "55.9 m",
+      "bbox": [
+        0.3028,
+        0.7935,
+        0.1213,
+        0.0435
+      ],
+      "style": {
+        "fill": "#e6f1f5",
+        "fill_name": "branco",
+        "weight": 0.117
+      },
+      "style_zh": "texto branco, altura da linha 4.2% (cerca de 45px)",
+      "anim_in": {
+        "kind": "reveal",
+        "kind_zh": "máquina de escrever"
+      },
+      "anim_out": {
+        "kind": "fade_out",
+        "kind_zh": "fade out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_073",
+      "kind": "label",
+      "kind_zh": "rótulo de texto",
+      "t0": 19.0,
+      "t1": 20.1,
+      "text": "t147.8 s",
+      "bbox": [
+        0.7389,
+        0.7306,
+        0.1111,
+        0.0241
+      ],
+      "style": {
+        "fill": "#96a6ae",
+        "fill_name": "cinza",
+        "weight": 0.073
+      },
+      "style_zh": "texto cinza, altura da linha 2.2% (cerca de 24px)",
+      "anim_in": {
+        "kind": "fade",
+        "kind_zh": "fade in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_074",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 20.0,
+      "t1": 20.1,
+      "text": "58.4 m",
+      "bbox": [
+        0.3028,
+        0.7944,
+        0.1204,
+        0.0426
+      ],
+      "style": {
+        "fill": "#e5f1f7",
+        "fill_name": "branco",
+        "weight": 0.101
+      },
+      "style_zh": "texto branco, altura da linha 4.3% (cerca de 46px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_075",
+      "kind": "label",
+      "kind_zh": "rótulo de texto",
+      "t0": 20.5,
+      "t1": 21.1,
+      "text": "t 159.1 s",
+      "bbox": [
+        0.7398,
+        0.7324,
+        0.1102,
+        0.0222
+      ],
+      "style": {
+        "fill": "#97a5af",
+        "fill_name": "cinza",
+        "weight": 0.08
+      },
+      "style_zh": "texto cinza, altura da linha 2.2% (cerca de 24px)",
+      "anim_in": {
+        "kind": "reveal",
+        "kind_zh": "máquina de escrever"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_076",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 20.5,
+      "t1": 20.7,
+      "text": "59.2 m",
+      "bbox": [
+        0.3028,
+        0.7944,
+        0.1213,
+        0.0407
+      ],
+      "style": {
+        "fill": "#e5f1f7",
+        "fill_name": "branco",
+        "weight": 0.106
+      },
+      "style_zh": "texto branco, altura da linha 4.1% (cerca de 44px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_078",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 21.0,
+      "t1": 23.6,
+      "text": "79%",
+      "bbox": [
+        0.0491,
+        0.7926,
+        0.0833,
+        0.0435
+      ],
+      "style": {
+        "fill": "#e4f0f6",
+        "fill_name": "branco",
+        "weight": 0.101
+      },
+      "style_zh": "texto branco, altura da linha 4.3% (cerca de 47px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_079",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 21.0,
+      "t1": 22.1,
+      "text": "60.9 m",
+      "bbox": [
+        0.3028,
+        0.7944,
+        0.1213,
+        0.0417
+      ],
+      "style": {
+        "fill": "#e5f0f4",
+        "fill_name": "branco",
+        "weight": 0.103
+      },
+      "style_zh": "texto branco, altura da linha 4.1% (cerca de 44px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_080",
+      "kind": "label",
+      "kind_zh": "rótulo de texto",
+      "t0": 21.5,
+      "t1": 22.1,
+      "text": "t 166.6 s",
+      "bbox": [
+        0.7398,
+        0.7324,
+        0.1102,
+        0.0222
+      ],
+      "style": {
+        "fill": "#95a5ad",
+        "fill_name": "cinza",
+        "weight": 0.08
+      },
+      "style_zh": "texto cinza, altura da linha 2.2% (cerca de 24px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_081",
+      "kind": "label",
+      "kind_zh": "rótulo de texto",
+      "t0": 22.5,
+      "t1": 23.6,
+      "text": "t 177.8 s",
+      "bbox": [
+        0.7389,
+        0.7306,
+        0.1111,
+        0.0241
+      ],
+      "style": {
+        "fill": "#97a7af",
+        "fill_name": "cinza",
+        "weight": 0.073
+      },
+      "style_zh": "texto cinza, altura da linha 2.2% (cerca de 24px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_083",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 22.5,
+      "t1": 23.6,
+      "text": "813",
+      "bbox": [
+        0.5528,
+        0.7963,
+        0.0685,
+        0.037
+      ],
+      "style": {
+        "fill": "#e5f0f4",
+        "fill_name": "branco",
+        "weight": 0.119
+      },
+      "style_zh": "texto branco, altura da linha 3.7% (cerca de 40px)",
+      "anim_in": null,
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_082",
+      "kind": "counter",
+      "kind_zh": "contador",
+      "t0": 22.5,
+      "t1": 23.6,
+      "text": "69.1 m",
+      "bbox": [
+        0.3028,
+        0.7944,
+        0.1213,
+        0.0417
+      ],
+      "style": {
+        "fill": "#e5f0f4",
+        "fill_name": "branco",
+        "weight": 0.103
+      },
+      "style_zh": "texto branco, altura da linha 4.2% (cerca de 45px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "entrada seca"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "saída seca"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": true,
+      "anchor": null,
+      "persistent": null
+    }
+  ],
+  "stickers": [],
+  "sfx": []
+}

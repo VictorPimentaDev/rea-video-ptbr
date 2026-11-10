@@ -5,6 +5,7 @@
 > - a VLM responde em português quando o relatório é pt-BR, e os prompts de geração de imagem e vídeo continuam em inglês
 > - ajustes em `rea_video/plan.py` e `rea_video/production.py` para que os nomes de enquadramento traduzidos continuem ordenando os setups e gerando prompts em inglês
 > - documentação em pt-BR em [docs/pt-BR/](docs/pt-BR/) e README em português revisado em [i18n/README_pt.md](i18n/README_pt.md)
+> - exemplo testado em pt-BR: [vídeo](docs/cases/videos/lidar_ptbr.mp4) e [relatório](docs/cases/lidar_ptbr/report.md)
 > - correção em `scripts/install_skill.sh` (variável `$PY` lida junto com o caractere seguinte e quebrando com `set -u`)
 > - teste novo `tests/test_i18n_pt_br.py`
 
